@@ -118,6 +118,7 @@ p{
 img{
     border: 2px solid #ff4500;
     padding: 3px;
+    border-radius: 1px;
     margin: 10px;
 }
 
