@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Photo Gallery with JS</title>
+		<link rel="stylesheet" href="css/gallery.css">
+		<script src="js/gallery.js"></script>
+	</head>
+	<body onload="setImages()">
+		<header>
+			<h1>Photo Gallery with JS</h1>
+			<div id="image">
+				Hover over an image below to display here.
+			</div>
+		</header>
+		<main>
+			<img class="preview" src="images/DoctorZhivago-by-BorisPasternak.jpg" alt="Book Cover DoctorZhivago-by-BorisPasternak" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+			<img class="preview" src="images/GunsGermsAndSteel-by-JaredDiamond.jpg" alt="Book Cover GunsGermsAndSteel-by-JaredDiamond" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+			<img class="preview" src="images/Sapiens-by-NoahHarari.jpg" alt="Book Cover Sapiens-by-NoahHarari" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+			<img class="preview" src="images/TheAlchemist-by-PauloCoelho.jpg" alt="Book Cover TheAlchemist-by-PauloCoelho" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+			<img class="preview" src="images/TheCatcherInTheRye-by-JDSalinger.jpg" alt="Book Cover TheCatcherInTheRye-by-JDSalinger" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+			<img class="preview" src="images/TheLittlePrince-by-AntoineDeSaintExupery.jpg"
+				alt="Book Cover TheLittlePrince-by-AntoineDeSaintExupery" onmouseover="upDate(this)" onmouseleave="unDo()" onfocus="upDate(this)" onblur="unDo()">
+		</main>
+	</body>
+</html>
